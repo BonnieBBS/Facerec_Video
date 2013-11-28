@@ -1,0 +1,1 @@
+/home/bonnie/Projects/STITP/Facerec_Video/demo_src/CMakeFiles/T.dir

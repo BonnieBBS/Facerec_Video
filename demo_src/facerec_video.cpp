@@ -79,6 +79,7 @@ int main(int argc, const char *argv[]) {
     int im_height = images[0].rows;
     // Create a FaceRecognizer and train it on the given images:
     Ptr<FaceRecognizer> model = createFisherFaceRecognizer();
+    model->set("threshold", 2000.0);
     model->train(images, labels);
     // That's it for learning the Face Recognition model. You now
     // need to create the classifier for the task of Face Detection.
